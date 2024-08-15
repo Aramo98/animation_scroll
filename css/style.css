@@ -1,0 +1,210 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+@font-face {
+    font-family: fontFirst;
+    src: url(/font/PPNeueMachina-Regular.otf);
+}
+
+
+.container{
+    width: auto;
+    height: auto;
+ 
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    top: 100px;
+    overflow: hidden;
+}
+.headerOne{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    padding: 0px 25px 0px  25px;
+   position: fixed;
+top: 0;
+z-index: 1;
+}
+
+.headerOne>nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.headerOne>nav>ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    list-style: none;
+
+}
+
+.headerOne>nav>ul>li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.headerOne>nav>ul>li>a{
+    color: #000;
+    text-decoration: none;
+    font-family: fontFirst;
+    text-transform: capitalize;
+}
+
+
+.headerTwo{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    padding: 0px 25px 0px  25px;
+   position: fixed;
+top: 0;
+z-index: 2;
+}
+
+.headerTwo>nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.headerTwo>nav>ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    list-style: none;
+
+}
+
+.headerTwo>nav>ul>li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.headerTwo>nav>ul>li>a{
+    color: #fff;
+    text-decoration: none;
+    font-family: fontFirst;
+    text-transform: capitalize;
+}
+
+.section{
+    width: 100%;
+  
+  
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+
+}
+
+.section1 {
+    height: 950px;
+}
+.section1 .rightBlock{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    right: 25%;
+ 
+}
+
+
+
+.section1 .circle{
+   
+        width: 800px;
+        height: 800px;
+        position: absolute;
+        top: 45%;
+        left: 30%;
+        transform: translate(-50%, -50%);
+        border-radius: 50%;
+    
+
+}
+
+
+
+h1 {
+    font-size: 48px;
+    margin: 0;
+    font-family: fontFirst;
+}
+
+p {
+    font-size: 24px;
+    margin: 20px 0;
+    font-family: fontFirst;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: transparent;
+    border: 2px solid #003366;
+    color: #003366;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    font-family: fontFirst;
+}
+
+button:hover {
+    background-color: #003366;
+    color: #ffffff;
+}
+
+.section2{
+flex-wrap: wrap;
+height: auto;
+gap: 15px;
+}
+
+.section2 > .block{
+width: 450px;
+height: 250px;
+display: flex;
+justify-content: center;
+align-items: flex-start;
+}
+
+
+.section2 > .block> .iconBlock{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.section2 > .block > .content>h2{
+    font-size: 15px;
+    font-family: fontFirst;
+    color: #eee8e8;
+}
+.section2 > .block > .content>p{
+    font-size: 20px;
+    font-family: fontFirst;
+    color: #eee8e8;
+}
